@@ -4,12 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .dark-mode {
+            background-color: black;
+            color: white;
+        }
+
+        .light-mode {
+            background-color: white;
+            color: black;
+        }
+    </style>
 </head>
-<body>
+<body class="light-mode">
     <p id="direction"></p>
     <p id="onload"></p>
     <button id="clickMe">Click me for something to happen</button>
     <button id="randomColorBtn" onclick="Random();">Nono, click me pleaaaase!!</button>
+    <button id="modeBtn"light-mode">Click me to toggle dark mode</button>
     <script src="script.js"></script>
 </body>
 </html>
